@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  color: #222;
+  font-size: 24px; 
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+  margin: 25px;
+  color: rgb(6, 59, 34);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.languages {
+  height: 500px;
+  width: 500px;
+  margin: 15px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.language {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: rgb(241, 240, 169);
+  border: 1px solid #222;
+  margin: 2px;
+}
+
+.voteCount {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language button {
+  color: rgb(8, 102, 8);
+  background-color: #0000;
+  border: none;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  outline: none;
+  cursor: pointer;
+}
